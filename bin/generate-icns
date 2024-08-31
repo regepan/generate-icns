@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const create = require('../index');
+
+const inputImagePath = process.argv[2];
+
+if (!inputImagePath) {
+  console.error('使用方法: generate-icns <画像ファイルのパス>');
+  process.exit(1);
+}
+
+create(inputImagePath);

@@ -1,0 +1,15 @@
+{
+  "name": "generate-icns",
+  "version": "1.0.0",
+  "description": "Mac用のicnsファイルを生成するツール",
+  "main": "index.js",
+  "bin": {
+    "generate-icns": "./bin/generate-icns"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["icns", "mac", "icon"],
+  "author": "あなたの名前",
+  "license": "MIT"
+}
