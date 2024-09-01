@@ -1,5 +1,5 @@
 {
-  "name": "generate-icns",
+  "name": "@regepan/generate-icns",
   "version": "1.0.0",
   "description": "macOS用のアイコンファイル（.icns）を生成するためのシンプルなツールです。",
   "main": "index.js",
