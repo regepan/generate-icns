@@ -1,7 +1,7 @@
 {
   "name": "generate-icns",
   "version": "1.0.0",
-  "description": "Mac用のicnsファイルを生成するツール",
+  "description": "macOS用のアイコンファイル（.icns）を生成するためのシンプルなツールです。",
   "main": "index.js",
   "bin": {
     "generate-icns": "./bin/generate-icns"
@@ -9,7 +9,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["icns", "mac", "icon"],
-  "author": "あなたの名前",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regepan/generate-icns.git"
+  },
+  "keywords": [
+    "icns",
+    "mac",
+    "icon"
+  ],
+  "author": "regepan",
+  "license": "MIT",
+  "volta": {
+    "node": "21.7.3"
+  }
 }
