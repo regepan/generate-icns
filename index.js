@@ -48,7 +48,7 @@ function create(inputImagePath) {
   const icnsFile = path.join(inputDir, 'icon.icns');
   execSync(`iconutil -c icns ${iconsetDir} -o ${icnsFile}`);
 
-  console.log(`✅ ${icnsFile} が生成されました。`);
+  console.log(`✅ ${icnsFile} has been generated.`);
 }
 
 module.exports = create;
