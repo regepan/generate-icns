@@ -6,7 +6,7 @@
 ## 使い方
 
 ```
-npm install -g generate-icns
+npm i -g @regepan/generate-icns
 generate-icns input.png
 ```
 
